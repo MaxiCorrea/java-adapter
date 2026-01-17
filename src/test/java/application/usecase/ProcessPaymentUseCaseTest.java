@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import application.port.PaymentGatewayPort;
 import domain.model.Payment;
-import domain.port.PaymentGatewayPort;
 
 class ProcessPaymentUseCaseTest {
 

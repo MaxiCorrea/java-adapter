@@ -1,7 +1,7 @@
 package application.usecase;
 
+import application.port.PaymentGatewayPort;
 import domain.model.Payment;
-import domain.port.PaymentGatewayPort;
 
 public class ProcessPaymentUseCase {
 

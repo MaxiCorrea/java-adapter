@@ -2,8 +2,8 @@ package infrastructure.adapter;
 
 import java.math.BigDecimal;
 
+import application.port.PaymentGatewayPort;
 import domain.model.Payment;
-import domain.port.PaymentGatewayPort;
 
 public class StripePaymentAdapter implements PaymentGatewayPort {
 
